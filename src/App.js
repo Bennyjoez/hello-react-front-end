@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/Greeting';
 
@@ -7,7 +6,7 @@ function App() {
     <div className="App">
       <div>
         <Greeting />
-        <button>Get Greeting</button>
+        <button type="button">Get Greeting</button>
       </div>
     </div>
   );
